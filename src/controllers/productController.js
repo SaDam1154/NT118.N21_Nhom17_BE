@@ -10,7 +10,7 @@ const read = async (req, res, next) => {
         products = await Product.aggregate([
             {
                 $lookup: {
-                    from: 'categ`ories',
+                    from: 'categories',
                     localField: 'category',
                     foreignField: '_id',
                     as: 'category',
@@ -22,12 +22,14 @@ const read = async (req, res, next) => {
             { $match: req.filters },
             { $sort: req.sorts },
         ]);
-        return res.status(200).json({ success: true, products });
+        return res.status(200).json({ success: true, products: products });
     } catch (err) {
         console.log(err);
         return res.status(500).json({ success: false, status: 500, message: 'Internal server error' });
     }
 };
+
+//
 
 // [POST] api/product
 const create = async (req, res, next) => {
