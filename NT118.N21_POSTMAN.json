@@ -1,9 +1,10 @@
 {
 	"info": {
-		"_postman_id": "5fa8d95c-3aa8-4524-b605-c5c1c66d021b",
-		"name": "OOP",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "24826890"
+		"_postman_id": "7f63f3ad-3531-4a62-8c93-2b080bf9b38f",
+		"name": "Mobile",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25158978",
+		"_collection_link": "https://solar-crescent-136842.postman.co/workspace/Team-Workspace~8374a56e-4813-44e9-8896-e1adcb5d2196/collection/25158978-7f63f3ad-3531-4a62-8c93-2b080bf9b38f?action=share&creator=25158978&source=collection_link"
 	},
 	"item": [
 		{
@@ -43,17 +44,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/product/15",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"product",
-								"15"
-							]
-						}
+						"url": "{{API}}/api/product/15"
 					},
 					"response": []
 				},
@@ -70,23 +61,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Cây xương sen đá màu hồng xám\",\r\n    \"price\": 100000,\r\n    \"type\": \"6389685cd6c64991a6e8da74\",\r\n    \"quantity\": 10,\r\n    \"image\": \"{{IMAGE_SENDA}}\"\r\n}",
+							"raw": "{\r\n    \"name\": \"Đùi gà chiên giòn\",\r\n    \"price\": 100000,\r\n    \"priceDiscount\": 90000,\r\n    \"isDiscounted\": true,\r\n    \"description\": \"Đùi gà chiên giòn ngon ngon\",\r\n    \"cagory\": \"6390c417bc037b41426cc9c8\",\r\n    \"quantity\": 10,\r\n    \"image\": \"https://c3nguyentatthanhhp.edu.vn/wp-content/uploads/2023/04/50-Anh-Do-An-Cute-Do-An-Vat-Do-An.jpg\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/product",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"product"
-							]
-						}
+						"url": "{{API}}/api/product"
 					},
 					"response": []
 				},
@@ -110,17 +92,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/product/1",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"product",
-								"1"
-							]
-						}
+						"url": "{{API}}/api/product/1"
 					},
 					"response": []
 				},
@@ -144,40 +116,21 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/product/23",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"product",
-								"23"
-							]
-						}
+						"url": "{{API}}/api/product/23"
 					},
 					"response": []
 				}
 			]
 		},
 		{
-			"name": "Product Type",
+			"name": "Category",
 			"item": [
 				{
 					"name": "List all",
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/product-type",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"product-type"
-							]
-						}
+						"url": "{{API}}/api/product-type"
 					},
 					"response": []
 				},
@@ -186,17 +139,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/product-type/1",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"product-type",
-								"1"
-							]
-						}
+						"url": "{{API}}/api/product-type/1"
 					},
 					"response": []
 				},
@@ -220,16 +163,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/product-type",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"product-type"
-							]
-						}
+						"url": "{{API}}/api/product-type"
 					},
 					"response": []
 				},
@@ -253,17 +187,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/product-type/2",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"product-type",
-								"2"
-							]
-						}
+						"url": "{{API}}/api/product-type/2"
 					},
 					"response": []
 				},
@@ -287,17 +211,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/product-type/1",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"product-type",
-								"1"
-							]
-						}
+						"url": "{{API}}/api/product-type/1"
 					},
 					"response": []
 				}
@@ -311,16 +225,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/role",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"role"
-							]
-						}
+						"url": "{{API}}/api/role"
 					},
 					"response": []
 				},
@@ -329,17 +234,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/role/2",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"role",
-								"2"
-							]
-						}
+						"url": "{{API}}/api/role/2"
 					},
 					"response": []
 				},
@@ -363,16 +258,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/role",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"role"
-							]
-						}
+						"url": "{{API}}/api/role"
 					},
 					"response": []
 				},
@@ -396,17 +282,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/role/2",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"role",
-								"2"
-							]
-						}
+						"url": "{{API}}/api/role/2"
 					},
 					"response": []
 				},
@@ -430,17 +306,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/role/1",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"role",
-								"1"
-							]
-						}
+						"url": "{{API}}/api/role/1"
 					},
 					"response": []
 				}
@@ -462,24 +328,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"admin\"\r\n}",
+							"raw": "{\r\n    \"email\": \"admin@gmail.com\",\r\n    \"password\": \"admin\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/auth/login",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"auth",
-								"login"
-							]
-						}
+						"url": "{{API}}/api/auth/login"
 					},
 					"response": []
 				}
@@ -511,39 +367,21 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/function",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"function"
-							]
-						}
+						"url": "{{API}}/api/function"
 					},
 					"response": []
 				}
 			]
 		},
 		{
-			"name": "Account",
+			"name": "User",
 			"item": [
 				{
 					"name": "List all",
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/account",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"account"
-							]
-						}
+						"url": "{{API}}/api/account"
 					},
 					"response": []
 				},
@@ -552,17 +390,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/account/1",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"account",
-								"1"
-							]
-						}
+						"url": "{{API}}/api/account/1"
 					},
 					"response": []
 				},
@@ -579,23 +407,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"admin\",\r\n    \"name\": \"Nguyễn Văn A\",\r\n    \"email\": \"admin@gmail.com\",\r\n    \"role\": \"63ad08e0c9246a24fd53a998\"\r\n}",
+							"raw": "{\r\n    \"email\": \"admin@gmail.com\",\r\n    \"password\": \"admin\",\r\n    \"firstname\": \"Sa\",\r\n    \"lastname\": \"Dam\",\r\n    \"role\": \"63ad8f7145f39f9d501d648d\",\r\n    \"phone\": \"0365011369\",\r\n    \"gender\": \"Nam\",\r\n    \"dateOfBirth\": \"2002/09/09  \",\r\n    \"urlAvt\": \"http://res.cloudinary.com/psncloud/image/upload/v1675047717/users/63bb9473e9456383e6c2f839/avatar/avatar.png\"\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/account",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"account"
-							]
-						}
+						"url": "{{API}}/api/user"
 					},
 					"response": []
 				},
@@ -612,24 +431,14 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\": \"admin\",\r\n    \"password\": \"admin\",\r\n    \"name\": \"Nguyễn Văn A\",\r\n    \"email\": \"admin@gmail.com\",\r\n    \"role\": \"63ad08e0c9246a24fd53a998\"\r\n}",
+							"raw": "{\r\n    \"firstname\": \"admin\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/account/2",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"account",
-								"2"
-							]
-						}
+						"url": "{{API}}/api/user/1"
 					},
 					"response": []
 				},
@@ -653,17 +462,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/account/1",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"account",
-								"1"
-							]
-						}
+						"url": "{{API}}/api/account/1"
 					},
 					"response": []
 				}
@@ -714,17 +513,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/customer/2",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"customer",
-								"2"
-							]
-						}
+						"url": "{{API}}/api/customer/2"
 					},
 					"response": []
 				},
@@ -748,16 +537,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/customer",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"customer"
-							]
-						}
+						"url": "{{API}}/api/customer"
 					},
 					"response": []
 				},
@@ -781,17 +561,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/customer/2",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"customer",
-								"2"
-							]
-						}
+						"url": "{{API}}/api/customer/2"
 					},
 					"response": []
 				},
@@ -815,17 +585,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/customer/1",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"customer",
-								"1"
-							]
-						}
+						"url": "{{API}}/api/customer/1"
 					},
 					"response": []
 				}
@@ -839,16 +599,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/order",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"order"
-							]
-						}
+						"url": "{{API}}/api/order"
 					},
 					"response": []
 				},
@@ -869,17 +620,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/order/2",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"order",
-								"2"
-							]
-						}
+						"url": "{{API}}/api/order/2"
 					},
 					"response": []
 				},
@@ -903,16 +644,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/order",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"order"
-							]
-						}
+						"url": "{{API}}/api/order"
 					},
 					"response": []
 				},
@@ -936,17 +668,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/order/2",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"order",
-								"2"
-							]
-						}
+						"url": "{{API}}/api/order/2"
 					},
 					"response": []
 				},
@@ -970,17 +692,7 @@
 								}
 							}
 						},
-						"url": {
-							"raw": "{{API}}/api/order/1",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"order",
-								"1"
-							]
-						}
+						"url": "{{API}}/api/order/1"
 					},
 					"response": []
 				}
@@ -994,16 +706,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/detail-order",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"detail-order"
-							]
-						}
+						"url": "{{API}}/api/detail-order"
 					},
 					"response": []
 				},
@@ -1012,18 +715,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/detail-order/find-by-order-id/63a3410228f001d0904e322c",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"detail-order",
-								"find-by-order-id",
-								"63a3410228f001d0904e322c"
-							]
-						}
+						"url": "{{API}}/api/detail-order/find-by-order-id/63a3410228f001d0904e322c"
 					},
 					"response": []
 				},
@@ -1032,17 +724,358 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "{{API}}/api/detail-order/1",
-							"host": [
-								"{{API}}"
-							],
-							"path": [
-								"api",
-								"detail-order",
-								"1"
-							]
-						}
+						"url": "{{API}}/api/detail-order/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Review",
+			"item": [
+				{
+					"name": "List all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{API}}/api/product-type"
+					},
+					"response": []
+				},
+				{
+					"name": "Get one",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{API}}/api/product-type/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sen đá\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product-type"
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Sen đá 2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product-type/2"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Xương phụng\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/review/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "WishLish",
+			"item": [
+				{
+					"name": "Save",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\": \"6465a574c5d9c962c3fa2b4f\",\r\n    \"userId\": \"6465a597c5d9c962c3fa2b55\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/1/save"
+					},
+					"response": []
+				},
+				{
+					"name": "UnSave",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\": \"6465a574c5d9c962c3fa2b4f\",\r\n    \"userId\": \"6465a597c5d9c962c3fa2b55\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/1/unsave"
+					},
+					"response": []
+				},
+				{
+					"name": "GetSaved",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"6465a597c5d9c962c3fa2b55\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/1/save"
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"{{IMAGE_SENDA}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Cây xương rồng 2\",\r\n    \"price\": 654321,\r\n    \"type\": \"6385d5cd0962953c4a38e021\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/23"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FavouriteList",
+			"item": [
+				{
+					"name": "Favourite",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\": \"6465a574c5d9c962c3fa2b4f\",\r\n    \"userId\": \"6465a597c5d9c962c3fa2b55\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/1/save"
+					},
+					"response": []
+				},
+				{
+					"name": "UnFavourite",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productId\": \"6465a574c5d9c962c3fa2b4f\",\r\n    \"userId\": \"6465a597c5d9c962c3fa2b55\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/1/unsave"
+					},
+					"response": []
+				},
+				{
+					"name": "GetFavouriteList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"6465a597c5d9c962c3fa2b55\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/1/save"
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"image\": \"{{IMAGE_SENDA}}\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Cây xương rồng 2\",\r\n    \"price\": 654321,\r\n    \"type\": \"6385d5cd0962953c4a38e021\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{API}}/api/product/23"
 					},
 					"response": []
 				}
